@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Profil Personnel</title>
+  <title>Profil Personnel de José Gloire BOKITOMO</title>
   <link rel="stylesheet" href="semanstyle.css" />
 </head>
 <body>
 
-  <!-- ✅ HEADER PRINCIPAL -->
+  <!-- HEADER PRINCIPAL -->
   <header>
     <h1>José Gloire BOKITOMO</h1>
-    <p>Etudiant en Génie Logiciel · Développeur Web Fullstack · Passionné de technologie et de Jeux Vidéos</p>
+    <p>Etudiant en Génie Logiciel · Développeur Web Fullstack · Passionné de technologie et de football</p>
 
-    <!-- ✅ NAVIGATION -->
+    <!-- NAVIGATION -->
     <nav>
       <ul>
         <li><a href="#a-propos">À propos</a></li>
@@ -24,92 +24,90 @@
     </nav>
   </header>
 
-  <!-- ✅ CONTENU PRINCIPAL -->
+  <!-- CONTENU PRINCIPAL -->
   <main>
 
     <!-- Section : À propos -->
-    <section id="a-propos">
-      <h2>À propos de moi</h2>
+    <section>
+      <h2><a name="a-propos">À propos de moi</a></h2>
       <p>
-        Bonjour ! Je m'appelle José Gloire BOKITOMO, Futur Développeur Web Fullstack en formation chez Akieni Academy. 
-        Je me passionne pour la création d'applications web modernes, de la conception 
-        de l'interface jusqu'à l'architecture du serveur. En dehors du code, je suis 
+        Bonjour ! Je m'appelle José Gloire BOKITOMO, Etudiant en Génie Logiciel et Développeur Web Fullstack en formation.
+        Je me passionne pour la création d'applications web modernes, de la conception
+        de l'interface jusqu'à l'architecture du serveur. En dehors du code, je suis
         un grand fan d'EA Sports FC Mobile !
       </p>
     </section>
 
-    <!-- Section : Projets (articles = cartes visuelles) -->
-    <section id="projets">
-      <h2>Mes Projets</h2>
-      <!-- ✅ ARTICLE 3 -->
+    <!-- Section : Projets -->
+    <section>
+      <h2><a name="projets">Mes Projets</a></h2>
+
       <article>
         <header>
           <h3>Page de Profil Sémantique — Mini-Projet S2</h3>
         </header>
         <p>
-         Un exercice de maîtrise du HTML5 sémantique 
-         dans le cadre de la formation Akieni Academy. Aucune classe CSS utilisée — 
-         uniquement des balises sémantiques bien pensées.
+          Cette page elle-même ! Un exercice de maîtrise du HTML5 sémantique
+          dans le cadre de la formation Akieni Academy. Aucune classe CSS utilisée —
+          uniquement des balises sémantiques bien pensées.
         </p>
-        <footer>
-          <p><small>Stack : HTML5 · Classless CSS</small></p>
-        </footer>
       </article>
     </section>
 
-    <!-- Section : Compétences avec aside -->
-    <section id="competences">
-      <h2>Compétences</h2>
+    <!-- Section : Compétences -->
+    <section>
+      <h2><a name="competences">Compétences Techniques</a></h2>
 
       <p>Voici un aperçu des technologies que je maîtrise et que j'explore activement dans mes projets personnels et académiques.</p>
 
-      <!-- ✅ ASIDE : informations secondaires / note -->
       <aside>
         <h3>Note</h3>
         <p>
-          Ces compétences sont en constante évolution. Je m'appuie sur la pratique 
-          quotidienne, les projets concrets et les formations comme Akieni Academy 
+          Ces compétences sont en constante évolution. Je m'appuie sur la pratique
+          quotidienne, les projets concrets et les formations comme Akieni Academy
           pour progresser régulièrement.
         </p>
       </aside>
-        <ul>
-          <li>HTML</li>
-        </ul>
-        <p>Langages de programmation appris :</p>
-        <ul>
-          <li>C#</li>
-          <li>Java</li>
-          <li>C</li>
-          <li>Python</li>
-          <li>JavaScript</li>
-        </ul>
+      <p>Compétences Web :</p>
+      <ul>
+        <li>HTML</li>
+        <li>PHP</li>
+        <li>JavaScript</li>
+      </ul>
+      <p>Langages de programmation utilisés :</p>
+      <ul>
+        <li>C</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+      </ul>
     </section>
 
-    <section id="contact">
-      <h2>Me Contacter</h2>
+    <!-- Section : Contact -->
+    <section>
+      <h2><a name="contact">Me Contacter</a></h2>
       <p>Une question, une idée de collaboration ? Remplissez ce formulaire !</p>
 
       <form action="#" method="post">
 
-        <!-- ✅ FIELDSET 1 : Informations personnelles -->
         <fieldset>
           <legend>Informations personnelles</legend>
 
           <label for="prenom">Prénom</label>
-          <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required />
+          <input type="text" name="prenom" placeholder="Votre prénom" required />
 
           <label for="nom">Nom de famille</label>
-          <input type="text" id="nom" name="nom" placeholder="Votre nom" required />
+          <input type="text" name="nom" placeholder="Votre nom" required />
 
           <label for="email">Adresse e-mail</label>
-          <input type="email" id="email" name="email" placeholder="exemple@email.com" required />
+          <input type="email" name="email" placeholder="exemple@email.com" required />
         </fieldset>
 
         <fieldset>
           <legend>Votre message</legend>
 
           <label for="sujet">Sujet</label>
-          <select id="sujet" name="sujet" required>
+          <select name="sujet" required>
             <option value="">-- Choisissez un sujet --</option>
             <option value="collaboration">Collaboration</option>
             <option value="formation">Formation</option>
@@ -117,7 +115,7 @@
           </select>
 
           <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+          <textarea name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
         </fieldset>
 
         <button type="submit">Envoyer le message</button>
@@ -126,8 +124,10 @@
     </section>
 
   </main>
+
+  <!-- FOOTER -->
   <footer>
-    <p>Projet Réalisé par José Gloire BOKITOMO</p>
+    <p> Projet réalisé par José Gloire BOKITOMO</p>
     <nav>
       <ul>
         <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
